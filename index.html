@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Super Duper Infinite Scroll With Full Screen Detail Page</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/index.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-light bg-light justify-content-between bg-dark text-white">
+    <a class="navbar-brand">kedzior.io</a>
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </nav>  
+  <div class="container" style="margin-top: 6rem;">  
+    <div class="jumbotron">
+      <h1 class="display-4">Super Duper Infinite Scroll With Full Screen Detail Page</h1>
+      <p class="lead">This is the list of the most baddass games characters ever.</p>
+      <hr class="my-4">
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </p>
+    </div>
+    <div class="list">
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#" data-toggle="modal" data-target="#modalExample" data-backdrop="false">Doom Slayer</a></h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#" data-toggle="modal" data-target="#modalExample" data-backdrop="false">BJ Blazkowicz</a></h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>      
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#" data-toggle="modal" data-target="#modalExample" data-backdrop="false">Marcus Fenix</a></h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#" data-toggle="modal" data-target="#modalExample" data-backdrop="false">Master Chief</a></h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#" data-toggle="modal" data-target="#modalExample" data-backdrop="false">Commander Shepard</a></h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#" data-toggle="modal" data-target="#modalExample" data-backdrop="false">Lara Croft</a></h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#" data-toggle="modal" data-target="#modalExample" data-backdrop="false">Kratos</a></h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#" data-toggle="modal" data-target="#modalExample" data-backdrop="false">Chun Li</a></h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#" data-toggle="modal" data-target="#modalExample" data-backdrop="false">Chun Li</a></h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div> 
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#" data-toggle="modal" data-target="#modalExample" data-backdrop="false">John Marston</a></h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div> 
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#" data-toggle="modal" data-target="#modalExample" data-backdrop="false">Solid Snake</a></h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div> 
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title"><a href="#" data-toggle="modal" data-target="#modalExample" data-backdrop="false">Geralt of Rivia</a></h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>                                                                                   
+   </div>    
+  </div>
+
+  <div class="modal full-screen" tabindex="-1" role="dialog" id="modalExample">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="container pb-3"> 
+            <div class="mb-3">
+              <a href="#" data-dismiss="modal" aria-label="Close">back to list</a>
+            </div>
+            
+            <!-- Load that data dynamically -->
+            <div class="card bg-dark text-white mb-3">
+              <img class="card-img" src="doom-banner.jpg" alt="Card image">
+              <div class="card-img-overlay">
+                <h1 class="card-title">Doom Slayer</h1>
+              </div>
+            </div>   
+
+            <h2>Doom Slayer</h2>
+            <p>
+              The Doom Marine, commonly known in the fan community as the Doomguy and referred to as the Doom Slayer in later games, is a fictional character and the protagonist in the Doom video game franchise of first-person shooters created by id Software, and its sequels and spin-off media. He is a space marine dressed in green combat armor who rarely speaks onscreen.
+              Considered a symbolic and iconic protagonist and character, the original depiction of the Doom Marine does not have a defined personality and barely portrays a predefined character. According to designer John Romero, the Marine is meant to represent "YOU", "the player".[3][4] In 2017, Romero stated that he was the original model of the character for the cover box art.[5] 
+            </p>   
+
+            <h2>Concept and creation</h2>           
+            <p>
+              The Marine is not referred to by name in the original game. Romero described this choice as increasing player immersion: "There was never a name for the [Doom] marine because it's supposed to be YOU [the player]".[6]
+
+              Tom Hall's original design draft, "The Doom Bible", described several planned characters, all of whom went unused in the final version. The sole non-playable character, Buddy Dacote, bore the most similarities to the original game's eventual protagonist. "Dacote" is an acronym for "Dies at conclusion of this episode", and Buddy was supposed to be killed by a boss at the end of the planned third episode. In the finished product, this nearly happens to the Marine in the final level of the first episode, but you continue your adventure in episode two.[7] Later, when asked, Tom Hall and John Romero confirmed that the Doomguy is a descendant of B.J.Blazkowicz.[8][              
+            </p>
+            <h2>Characterization</h2>
+            <p>
+              On the box art for the original Doom, the Marine is portrayed as muscular, wearing green armor and a light grey space helmet that conceals his facial features. The Marine is firing a machine gun which doesn't make an appearance in the final game, and fighting a Baron of Hell. This image, with the addition of a shotgun clutched in their left hand, is carried over to the introduction screen of Doom. The player's in-game avatar, as seen in multiplayer mode and in the ending of Doom II: Hell on Earth, is based on this depiction. In multiplayer mode, the character wears green, red, brown and indigo.[10] The Marine's face is seen in the game's HUD, where it is shown as a Caucasian male with light brown hair, a buzz cut, and blue eyes. The Marine appears without a helmet in the cover art of Doom II and in the ending to The Ultimate Doom episode IV, "Thy Flesh Consumed".
+
+              In Doom, Doom II, and Final Doom, the Marine expresses little emotion at the horror unfolding around him, maintaining a stern and alert glare, eyes constantly darting left and right. When he takes damage, the Marine's reaction is a mixture of pain and anger. The Marine grins upon picking up a new weapon, and the most emotional face is seen when the Marine suffers 20 hit points or more taken away during a single attack, showing a shocked face. However, whilst id Software chose a somewhat generic, male pictorial representation of the character for cosmetic as well as gameplay purposes (damage feedback, story transitions), the identity of the Doom Marine is meant to represent the player themselves and so these depictions should only be considered illustrative of the character and not a depiction of what the character looks like. John Romero has been quoted as stating, "...the [Doom] marine ...it's supposed to be YOU [the player]".[6]
+              
+              The Marine in Doom 64 is less muscular, with slightly modified green armor with black highlights, a black helmet with an antenna and a blue visor. In Wolfenstein RPG, it is hinted that the Doom 64 Marine is a descendant of William "B.J." Blazkowicz, to whom the Marine's helmetless look in the original games bears a striking similarity. In a reference to the Marine's confrontation with the Cyberdemon, when Blazkowicz defeats the "Harbinger of Doom", the creature states that he will return in the future to confront his descendants.
+              
+              In Doom 3, the Marine's appearance is similar to that of his classic Doom incarnation as he wears green armor with exposed arms, but it is unlikely the character is meant to represent either the player or the original Doom Marine. The Doom 3 Marine's facial features are not concealed, his muscular build is less exaggerated, and he has black hair. During the game the player can interact with several characters, most of whom, like Sergeant Kelly, give the player some briefing regarding his mission. The player character remains silent throughout and is portrayed as tough and fearless in the game's cut scenes; generally only glaring at the demons he sees. When he discovers the towering Cyberdemon for the game's final battle, however, he steps back in fear.
+              
+              Contrary to previous incarnations, Doom 2016's Marine is more vaguely characterized: the Doom Slayer is never seen nor heard other than from the first person, and other than gameplay at the beginning of the game that shows him having a Caucasian skin color and the muscular masculine suit seen in the introduction, practically no details are revealed. However, the Doom Slayer's eyes and nose can be made out through the visor of his helmet on the game's box art, the 3D model viewer, and his Quake Champions appearance.[11] It has been also noted for its visibly irreverent tone conveyed by its hand gestures, fist bumping a small Doomguy figurine,[12] and a late game moment where the Doom Slayer decides to make a backup of a friendly AI rather than erasing it.[13][14]
+              
+              Doom Eternal is more specific about its characterization relative to the previous episode: Doomguy is seen without helmet and in first person, and for the first time in the series' history, he also speaks, voiced in flashback by Matthew Waterson. He also follows the streak for irreverence: a room in his Fortress of Doom is filled with comic books, collectible figurines,[15] guitars[16] and a gaming computer.              
+            </p>
+            <div class="mb-3">
+              <a href="#" data-dismiss="modal" aria-label="Close">back to list</a>
+            </div>            
+          </div>
+        </div>
+    </div>
+  </div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="index.js"></script>
+</html>
